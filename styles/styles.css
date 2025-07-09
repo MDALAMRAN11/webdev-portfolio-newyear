@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+/*firstBanner*/
+.first-banner img{
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+}
+
+/*secondBanner*/
+.second-banner h2 {
+    font-weight: 700;
+    font-size: 88px;
+    color: #FF0000;
+    margin-bottom: 45px;
+}
+.second-banner p {
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF0000;
+}
+.second-banner h3 {
+    font-weight: bold;
+    font-size: 48px;
+    color: #070211;
+}
+.second-banner img {
+    height: 500px;
+    width: 802.9px;
+    margin-left: 220px;
+    /* padding-right: 398px; */
+    padding-bottom: 120px;
+}
+.second-banner .second-description {
+    text-align: center;
+}
+
+
+/*third Banner*/
+.third-banner-img {
+    width: 100%;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+    display: block;
+}
+.third-banner .banner-content{
+    position: absolute;
+    top: 2px;
+    padding-left: 150px;
+    padding-right: 250px;
+    color:  #ffff;
+    align-items: center;
+}
+
+.third-banner .banner-content input[type="button"] {
+    pointer-events: auto; /* make button clickable */
+}
+.banner-content h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+.banner-content p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-content input {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #ffff;
+    cursor: pointer;
+}
+
