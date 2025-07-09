@@ -81,4 +81,39 @@ body {
     color: #ffff;
     cursor: pointer;
 }
+/*color-primary*/
+.color-primary {
+    color: #FF0000;
+}
+.btn-primary {
+    background-color: #FF0000;
+}
+
+/*fourth-banner*/
+.fourth-banner {
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    width: 990px;
+    height: 382px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+    border: 2px solid #ccc;
+}
+.fourth-banner input {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px 32px;
+    color: white;
+    cursor: pointer;
+}
+.fourth-banner input:hover {
+    background-color: #04ee56; /* or any color you want on hover */
+    color: #fff;               /* change text color if needed */
+    border: 2px solid #FF0000; /* optional: add a border on hover */
+    transition: background 0.3s, color 0.3s, border 0.3s; /* smooth effect */
+}
 
