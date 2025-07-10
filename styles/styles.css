@@ -122,18 +122,94 @@
 
 /*seventh-banner*/
 .seventh-banner {
-    max-width: 990px;
-    margin: 0 auto;
-    text-align: center;
+    position: relative;
 }
+.seventh-banner .banner-content {
+    text-align: center;
+    margin: 80px auto;
+    width: 990px;
+}
+.seventh-banner h6{
+    font-size: 24px;
+    margin-bottom: 1px;
+    font-weight: 400;
+}
+.seventh-banner h2 {
+    margin-top: 0px;
+    font-size: 72px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.seventh-banner p{
+    font-size: 20px;
+    color: #070211;
+    font-weight: 400;
+    margin-top: 0px;
+}  
+
+
 .seventh-banner .three-images {
+    max-width: 990px;
+    margin-left: 140px;
+    height: auto;
+    margin-bottom: 600px;
+}
+.three-images .second-img {
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    width: 400px;
+    z-index: 2;
+   
+}
+ .three-images .third-img {
+    position: absolute;
+    height: 200px;
+    top: 450px;
+    left: 130px;
+    width: 980px;
+    z-index: 1;
+}
+.three-images .first-img {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+}
+
+/*
+.seventh-banner .three-images img {
+    max-width: 100%;
+}
+.seventh-banner .three-images .second-img {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: 400px;
+    height: 400px;
+}
+.seventh-banner .three-images .first-img {
+    position: absolute;
+    right: 0px;
+    top: 50px;
+}
+.seventh-banner .three-images .third-img {
+    position: absolute;
+    top: 900px;
+} */
+
+
+/* .seventh-banner .three-images {
+    max-width: 990px;
     display: flex;
     justify-content: center;
-    gap: 20px;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .seventh-banner .three-images img {
     max-width: 100%;
     height: auto;
     display: block;
 }
+.seventh-banner .three-images .last-img {
+    margin-left: 200px;
+} */
