@@ -1,10 +1,7 @@
 *{
-    box-sizing: border-box;
-}
-
-body {
     max-width: 1600px;
-    margin: 0 auto;
+    max-height: 7335px;
+    box-sizing: border-box;
 }
 /*firstBanner*/
 .first-banner img{
@@ -13,7 +10,6 @@ body {
     padding-left: 140px;
     padding-right: 140px;
     padding-bottom: 120px;
-    box-sizing: border-box;
 }
 
 /*secondBanner*/
@@ -44,29 +40,24 @@ body {
     text-align: center;
 }
 
-
-/*third Banner*/
-.third-banner-img {
-    width: 100%;
-    padding-left: 140px;
-    padding-right: 140px;
-    padding-bottom: 120px;
-    box-sizing: border-box;
-    display: block;
+/*thirdBanner*/
+.wrap-img-content img {
+    width: 980px;
+    margin-left: 140px;
 }
-.third-banner .banner-content{
+.wrap-img-content {
+    position: relative;
+}
+.wrap-img-content .banner-content {
     position: absolute;
-    top: 2px;
-    padding-left: 150px;
-    padding-right: 250px;
-    color:  #ffff;
-    align-items: center;
+    width: 602px;
+    padding-bottom: 0px;
+    height: 900px;
+    top: 70px;
+    left: 190px;
+    color: white;
 }
-
-.third-banner .banner-content input[type="button"] {
-    pointer-events: auto; /* make button clickable */
-}
-.banner-content h1{
+.banner-content h1 {
     font-size: 64px;
     font-weight: 600;
 }
@@ -77,16 +68,6 @@ body {
 .banner-content input {
     font-size: 20px;
     font-weight: bold;
-    background-color: transparent;
-    color: #ffff;
-    cursor: pointer;
-}
-/*color-primary*/
-.color-primary {
-    color: #FF0000;
-}
-.btn-primary {
-    background-color: #FF0000;
 }
 
 /*fourth-banner*/
@@ -111,9 +92,48 @@ body {
     cursor: pointer;
 }
 .fourth-banner input:hover {
-    background-color: #04ee56; /* or any color you want on hover */
-    color: #fff;               /* change text color if needed */
-    border: 2px solid #FF0000; /* optional: add a border on hover */
-    transition: background 0.3s, color 0.3s, border 0.3s; /* smooth effect */
+    background-color: #04ee56;
+    color: #fff;
+    border: 2px solid #FF0000;
+    transition: background 0.3s, color 0.3s, border 0.3s;
 }
 
+/*sixth-banner*/
+.sixth-banner {
+    display: flex;
+    max-width: 990px;
+    max-height: 463px;
+    margin-left: 130px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.sixth-banner .first-column {
+    width: 330px;
+}
+.sixth-banner .second-column {
+    border-radius: 50%;
+    border: 6px solid #FF0000;
+}
+.sixth-banner .third-column {
+    width: 330px;
+    /* padding-left: 60px; */
+    padding-right: 0px;
+}
+
+/*seventh-banner*/
+.seventh-banner {
+    max-width: 990px;
+    margin: 0 auto;
+    text-align: center;
+}
+.seventh-banner .three-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.seventh-banner .three-images img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
