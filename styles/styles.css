@@ -176,40 +176,99 @@
     right: 50px;
 }
 
-/*
-.seventh-banner .three-images img {
-    max-width: 100%;
-}
-.seventh-banner .three-images .second-img {
-    position: absolute;
-    top: 150px;
-    left: 0px;
-    width: 400px;
-    height: 400px;
-}
-.seventh-banner .three-images .first-img {
-    position: absolute;
-    right: 0px;
-    top: 50px;
-}
-.seventh-banner .three-images .third-img {
-    position: absolute;
-    top: 900px;
-} */
 
+/*eighth banner*/
+.eighth-banner {
+    max-width: 980px;
+    max-height: 1168px;
+    margin-left: 125px;
+    margin-bottom: 120px;
+}
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.img-container img {
+    width: 300px;
 
-/* .seventh-banner .three-images {
-    max-width: 990px;
+}
+
+/*ninth-banner*/
+.ninth-banner {
+    max-width: 980px;
+    height: 550px;
+    text-align: center;
+    background-color: #fff2f2;
+    margin-left: 140px;
+    margin-bottom: 100px;
+}
+.ninth-banner h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #070211;
+}
+.ninth-banner p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.ninth-banner img{
+    padding-top: 80px;
+}
+
+.last-inputs{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+}
+.last-inputs .email{
+    padding: 10px 50px;
+    font-size: 90%;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+}
+.last-inputs .subscribe{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    background-color: red;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.last-inputs .subscribe:hover{
+    background-color: darkred;
+    transition: 0.3s;
+}
+
+
+/*footer*/
+.footer{
+    height: 300px;
+    background-color: #070211;
+    color: #fff2f2;
+}
+.footer .row-one{
+    display: flex;
+    justify-content: space-around;
+}
+
+.row-two {
+    display: flex;
+    justify-content: center;
     gap: 20px;
 }
-.seventh-banner .three-images img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+.row-two img {
+        width: 55.5px;
+        height: 55.5px;       
 }
-.seventh-banner .three-images .last-img {
-    margin-left: 200px;
+
+.row-three {
+    display: flex;
+    justify-content: space-around;
+}
+/* .row-one , .row-two , .row-three {
+    align-items: normal;
 } */
